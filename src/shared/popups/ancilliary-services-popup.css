@@ -1,0 +1,31 @@
+.button-popup {
+    background-color: '#4CAF50';
+    border: 'none';
+    color: 'white';
+    padding: '10px';
+    text-align: 'center';
+    text-decoration: 'none';
+    display: 'inline-block';
+    font-size: '16px';
+    margin: '4px 2px';
+    cursor: 'pointer';
+    border-radius: '8px';
+  }
+ .heading-labels {
+  color: black;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+ }
+ .ancilliary-title {
+  background:darkslateblue;
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 16px 24px;
+  font-weight: bold;
+  color: antiquewhite;
+ }
+ .heading-labels-2 {
+  color: black;
+  font-family: cursive;
+ }

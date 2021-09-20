@@ -1,0 +1,264 @@
+.flight-seat-1 {
+    display: flex;
+    color: white;
+    margin: 0 auto;
+    width: 98%;
+    justify-content: flex-start;
+    align-items: center;
+    height: 45px;
+    background-color: darkslateblue;
+    padding-left: 12px;
+}
+.flight-seat-2 {
+    display: flex;
+    color: black;
+    margin: 0 auto;
+    width: 98%;
+    justify-content: flex-start;
+    align-items: center;
+    height: 57px;
+    font-feature-settings: auto;
+    font-kerning: auto;
+    padding-left: 23px;
+    font-weight: bold;
+    font-size: larger;
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: thin;
+}
+.flight-seat-3 {
+    display: flex;
+    color: grey;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 98%;
+    justify-content: flex-start;
+    align-items: center;
+    font-feature-settings: auto;
+    font-kerning: auto;
+    padding-left: 19px;
+    font-size: small;
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: thin;
+}
+@media screen and (min-width: 240px) and (max-width: 500px) {
+    .flight-seat-3 {
+        height: initial;
+   }
+}
+.flight-seat-321-text {
+    margin-top: 30px;
+    width: -webkit-fill-available;
+   /* border: 1px solid;
+    */
+    background-color: aliceblue;
+    padding-top: 10px;
+}
+.paragraph-1 {
+    padding-top: 14px;
+    padding-left: 2px;
+    margin-right: 20px;
+}
+@media screen and (min-width: 240px) and (max-width: 500px) {
+    .paragraph-1 {
+        margin-right: 5px;
+   }
+}
+.image-5 {
+    width: 15px;
+}
+.flight-seat-31 {
+    flex-direction: row;
+    display: flex;
+   /* flex-grow: 1;
+    */
+    width: 98%;
+    height: 100px;
+}
+@media screen and (min-width: 240px) and (max-width: 500px) {
+    .flight-seat-31 {
+        height: initial;
+        width: initial;
+   }
+}
+.flight-seat-311 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-grow: 0.3;
+    flex: 0 0 17.9%;
+    max-width: 17.9%;
+}
+.ticket {
+    padding-bottom: 10px;
+}
+.flight-seat-312 {
+    display: flex;
+    align-items: center;
+    flex-grow: 2.7;
+    height: 55px;
+   /* padding-top: 57px;
+    */
+    margin-top: 36px;
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: thin;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+.image-2 {
+    height: 100px;
+    width: 120px;
+    padding-top: 20px;
+}
+.flight-seat-32 {
+    display: flex;
+    flex-direction: row;
+    width: -webkit-fill-available;
+}
+.icon-99 {
+    background-color: blue;
+}
+.flight-seat-321 {
+    width: 290px;
+    display: flex;
+   /* justify-content: center;
+    */
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-right: 1px solid #dee2e6;
+}
+@media screen and (min-width: 240px) and (max-width: 500px) {
+    .flight-seat-321 {
+        border-right: none;
+   }
+}
+@media (min-width: 1200px) {
+    .flight-seat-321 {
+        flex: 0 0 18.666667% !important;
+        max-width: 18.666667% !important;
+   }
+}
+.flight-seat-322 {
+    display: flex;
+    width: -webkit-fill-available;
+    flex-direction: column;
+}
+@media screen and (min-width: 240px) and (max-width: 500px) {
+    .flight-seat-322 .MuiSvgIcon-root {
+        font-size: 2.5rem;
+   }
+}
+.small-text-1 {
+    padding-bottom: 0px;
+    margin-bottom: 1px;
+    color: grey;
+}
+.small-text-2 {
+   /* margin-bottom: 1px;
+    */
+    color: grey;
+    margin-top: 0px;
+}
+.big-text {
+    font-weight: bold;
+    padding-top: 0px;
+    color: black;
+    text-align: center;
+    font-size: large;
+    margin-bottom: 2px;
+}
+[class*='flight-seat-322-'] {
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: flex-start;
+}
+@media screen and (min-width: 240px) and (max-width: 500px) {
+    [class*='flight-seat-322-'] {
+        flex-direction: column;
+        height: initial;
+        padding: 0;
+        margin-top: 0;
+        /* margin-left: 15px; */
+   }
+}
+.vertical {
+    height: 100%;
+    width: 1px;
+    border-left: 1px solid gray;
+    flex: 0 0 0.333333% !important;
+    max-width: 0.333333% !important;
+    padding-right: 0 !important;
+}
+.classA {
+    padding-top: 15px;
+   /* font-weight: bold;
+    */
+    font-size: 15px;
+    color: black;
+    padding-right: 15px;
+}
+.column {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+.flight-seat-4 {
+    display: flex;
+    justify-content: flex-end;
+   /* padding-top: 10px;
+    */
+    height: 30px;
+   /* margin-bottom: 100px;
+    */
+   /* margin: 0 auto;
+    */
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+}
+.seat-column {
+    display: flex;
+    justify-content: flex-start;
+   /* padding-left: 135px;
+    */
+    align-items: center;
+    margin-top: 15px;
+    padding-top: 10px;
+    height: 40px;
+   /* border: 1px solid lightblue;
+    */
+    margin: 0 auto;
+   /* margin-left: auto;
+    */
+    margin-left: -4px;
+    width: 65%;
+    padding-left: 27px;
+    box-shadow: 0px 0px 11px;
+}
+@media screen and (min-width: 240px) and (max-width: 500px) {
+    .seatallocationwrp {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+   }
+}
+.seatnum {
+    position: absolute;
+    top: 23%;
+    left: 22%;
+    width: 2rem;
+    text-align: center;
+    height: 1rem;
+    margin-top: 7px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.row {
+    margin: 0 !important;
+}

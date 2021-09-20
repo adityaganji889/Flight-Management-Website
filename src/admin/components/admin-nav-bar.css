@@ -1,0 +1,30 @@
+.icon {
+    padding-right: 2px;
+    padding-left: 20px;
+}
+.dashboard-icon-23 {
+    display: flex;
+    flex-direction: row;
+}
+.navicon, .slideinarrow {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 9999;
+    background: white;
+}
+.navicon .MuiSvgIcon-root, .slideinarrow .MuiSvgIcon-root {
+    margin-top: 4px;
+}
+.slideinarrow {
+    left: 10px;
+    right: initial;
+    background: #8db9ed;
+    z-index: 9;
+}
+.slideinarrow .MuiSvgIcon-root {
+    transform: rotate(180deg);
+}

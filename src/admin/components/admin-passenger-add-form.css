@@ -1,0 +1,51 @@
+.admin-form-page {
+    height: 600px;
+    height: 500px;
+    display: flex;
+    width: -webkit-fill-available;
+    flex-direction: column;
+}
+.labels {
+    padding-right: 30px;
+    font-weight: bold;
+}
+.admin-update-3 {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 200px;
+    padding-bottom: 15px;
+}
+.inputs {
+    padding-left: 20px;
+    width: 400px;
+}
+.labels-dob {
+    padding-right: 36px;
+    font-weight: bold;
+}
+.form-div {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    padding-left: 15px;
+}
+.form {
+    width: 500px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    margin-top: 40px;
+    border: 1px solid;
+}
+@media screen and (min-width: 240px) and (max-width: 500px) {
+    .form {
+        display: contents;
+   }
+}
+.labels-passport {
+    padding-right: 8px;
+    font-weight: bold;
+}
+.labels-address {
+    padding-right: 11px;
+	font-weight: bold;
+}

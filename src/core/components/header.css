@@ -1,0 +1,22 @@
+.root {
+    flex-grow: 1
+}
+.menuButton {
+    margin-right: 2,
+  }
+  .title {
+    padding-right: 80%
+  }
+  .menuButton {
+    margin-right: 2;
+ }
+  .MuiToolbar-regular {
+    display: flex;
+    justify-content: space-between;
+ }
+  .header-wrapper {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+ }
+  

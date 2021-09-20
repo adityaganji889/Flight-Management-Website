@@ -1,0 +1,233 @@
+.flight-seat-1 {
+    display: flex;
+    color: white;
+    margin: 0 auto;
+    width: 98%;
+    justify-content: flex-start;
+    align-items: center;
+    height: 45px;
+    background-color: darkslateblue;
+    padding-left: 12px;
+}
+.flight-seat {
+    height: 530px;
+}
+.flight-seat-2 {
+    display: flex;
+    color: black;
+    margin: 0 auto;
+    width: 98%;
+    justify-content: flex-start;
+    align-items: center;
+    height: 57px;
+    font-feature-settings: auto;
+    font-kerning: auto;
+    padding-left: 23px;
+    font-weight: bold;
+    font-size: larger;
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: thin;
+}
+.flight-seat-3 {
+    display: flex;
+    color: grey;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 98%;
+    justify-content: flex-start;
+    align-items: center;
+    height: 420px;
+    font-feature-settings: auto;
+    font-kerning: auto;
+    padding-left: 19px;
+    font-size: small;
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: thin;
+}
+.flight-seat-321-text {
+    margin-top: 30px;
+    width: -webkit-fill-available;
+    /* border: 1px solid; */
+    padding-right: 50px;
+    background-color: aliceblue;
+    padding-top: 10px;
+}
+.paragraph-1 {
+padding-top: 14px;
+padding-left: 2px;
+}
+.image-5 {
+    width: 15px;
+}
+.flight-seat-31 {
+    flex-direction: row;
+    display: flex;
+    /* flex-grow: 1; */
+    width: 98%;
+    height: 100px;
+}
+.flight-seat-311 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-grow: 0.3;
+}
+.ticket {
+    padding-bottom: 10px;
+}
+.flight-seat-312{
+    display: flex;
+    align-items: center;
+    flex-grow: 2.7;
+    height: 55px;
+    /* padding-top: 57px; */
+    margin-top: 36px;
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: thin;
+    padding-left: 20px;
+}
+.image-2 {
+    height: 100px;
+    width: 120px;
+    padding-top: 20px;
+}
+.flight-seat-32{
+    display: flex;
+    flex-direction: row;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+.icon-99 {
+    background-color: blue;
+}
+.flight-seat-321 {
+    width: 290px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.flight-seat-322 {
+    display: flex;
+    width: -webkit-fill-available;
+    flex-direction: column;
+}
+.small-text-1 {
+    padding-bottom: 0px;
+    margin-bottom: 1px;
+    color: grey;
+}
+.small-text-2 {
+    /* margin-bottom: 1px; */
+    color: grey;
+    margin-top: 0px;
+    padding-left: 25px;
+}
+.big-text {
+    font-weight: bold;
+    padding-top: 0px;
+    color: black;
+    text-align: center;
+    padding-left: 25px;
+    font-size: large;
+    margin-bottom: 2px
+}
+.flight-seat-322-A {
+    display: flex;
+    flex-direction: row;
+    padding-left: 89px;
+    height: 35px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.flight-seat-322-B {
+    display: flex;
+    flex-direction: row;
+    padding-left: 89px;
+    height: 35px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.flight-seat-322-D {
+    display: flex;
+    flex-direction: row;
+    padding-left: 89px;
+    height: 35px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+.flight-seat-322-E {
+    display: flex;
+    flex-direction: row;
+    padding-left: 89px;
+    height: 35px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.flight-seat-322-F {
+    display: flex;
+    flex-direction: row;
+    padding-left: 89px;
+    height: 35px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.flight-seat-322-C {
+    display: flex;
+    flex-direction: row;
+    padding-left: 89px;
+    height: 35px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+.vertical {
+    height: 100%;
+    width: 1px;
+    border-left: 1px solid gray;
+  }
+  .classA{
+    padding-top: 15px;
+    /* font-weight: bold; */
+    font-size: 15px;
+    color: black;
+    padding-right: 15px;
+  }
+  .column {
+      font-size: 15px;
+      font-weight: bold;
+      color: black;
+  }
+  .flight-seat-4{
+    display: flex;
+    justify-content: flex-end;
+    /* padding-top: 10px; */
+    height: 30px;
+    /* margin-bottom: 100px; */
+    /* margin: 0 auto; */
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 200px;
+  }
+  .seat-column {
+    display: flex;
+    justify-content: flex-start;
+    /* padding-left: 135px; */
+    align-items: center;
+    margin-top: 15px;
+    padding-top: px;
+    padding-top: 10px;
+    height: 40px;
+    /* border: 1px solid lightblue; */
+    margin: 0 auto;
+    margin-left: auto;
+    margin-left: 89px;
+    /* width: 70%; */
+    padding-left: 50px;
+    box-shadow: 0px 0px 11px;
+  }

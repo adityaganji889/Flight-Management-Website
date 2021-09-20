@@ -1,0 +1,121 @@
+.title-1 {
+    font-weight: bold;
+}
+.image-1 {
+    height: 240px;
+}
+@media screen and (min-width: 240px) and (max-width: 500px) {
+    .image-1 {
+        height: auto;
+        width: 100%;
+   }
+}
+.destination-1 {
+    font-weight: bold;
+    font-size: 19px;
+}
+.destination-2 {
+    font-weight: bold;
+    font-size: 19px;
+}
+.destination-3 {
+    color: grey;
+    font-size: 12px;
+    font-weight: bold;
+}
+.destination-4 {
+    color: grey;
+    font-size: 12px;
+    font-weight: bold;
+}
+.icon-1 {
+    padding-right: 0.3%;
+    padding-top: unset;
+    padding-bottom: 40%;
+    padding-left: 0.3%;
+}
+.flight-checkin-1 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    height: 52px;
+    align-items: center;
+}
+.flight-checkin-3 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.flight-checkin-3 .flight-checkin-31 {
+    order: 1;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    justify-content: flex-start;
+    padding-top: 15px;
+}
+.flight-checkin-3 .flight-checkin-31 .flight-checkin-311 {
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.flight-checkin-3 .flight-checkin-32 {
+    order: 2;
+    flex-grow: 2;
+}
+.flight-checkin-3 .flight-checkin-33 {
+    order: 3;
+    flex-grow: 1;
+    display: flex;
+    padding-top: 20px;
+}
+.flight-checkin-3 .flight-checkin-33 .flight-checkin-332 {
+    order: 2;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+.flight-checkin-3 .flight-checkin-33 .flight-checkin-331 {
+    order: 2;
+    justify-content: flex-start;
+}
+.hyphen {
+    color: grey;
+    padding-left: 0.1%;
+}
+.dot {
+    color: grey;
+    padding-left: 0.1%;
+}
+.note {
+    font-size: smaller;
+}
+.btn-1 {
+    margin: 1px;
+}
+@media screen and (min-width: 240px) and (max-width: 500px) {
+    .MTableToolbar-spacer-124 {
+        flex: none !important;
+   }
+    .MTableToolbar-searchField-127 {
+        padding-left: 0 !important;
+   }
+}
+.MuiButton-label {
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    font-size: smaller;
+}
+@media screen and (max-width: 700px) {
+    .MTableToolbar-spacer-124 {
+        flex: none !important;
+   }
+    .MTableToolbar-searchField-127 {
+        padding-left: 0 !important;
+   }
+}
